@@ -1,20 +1,10 @@
-.con{
-  border: 2px;
-  border-top: transparent;
-  border-bottom: transparent;
-  background-color: #F9F3EF;
+.items{
+  display: none;
 }
-  /* position:absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  overflow:hidden; */
-  /* z-index:-1; */
 
-/* #name{
-  background-color: white (250, 00, 189) !important;
-} */
+
+
+
 hr{
   height: 1px;
   color:#a94442;
@@ -45,25 +35,9 @@ body{
 #result{
   display:none;
 }
-#form1{
-  display:none;
-  }
-#man-type{
-  display:none;
-
-}
-#woman-type{
-  display:none;
-
-
 }
 
-.info0{
-  display:none;
-}
-.info1{
-  display:none;
-}
+
 label{
   font-size: 18px;
 }
@@ -85,39 +59,7 @@ label{
   text-align: center;
 }
 
-#intrested-in{
-  display:none;
-  text-align: center;
-}
-#man-type{
-  display:none;
-  text-align: center;
-}
-#woman-type{
-  display:none;
-  text-align: center;
-}
-#vacation-spot{
-  display:none;
-  text-align: center;
-}
-#intrests{
-  display:none;
-  text-align: center;
-}
-#favorate-color{
-  display:none;
-  text-align: center;
-}
-#show-kind{
-  display:none;
-  text-align: center;
-}
-.main-submit{
-  display:none;
-  text-align: center;
 
-}
 #help-inline{
   padding-left:20px;
   color:#e80659;
@@ -138,6 +80,7 @@ label{
 }
  .name-block{
    text-align: center;
+
  }
  .row-prop{
    align-content: center;
