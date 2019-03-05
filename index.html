@@ -5,131 +5,29 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Groceries</title>
+    <title>Palindromes</title>
   </head>
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1 class="head-props">Make your grocery list</h1>
+        <h1 class="head-props">Palindromes</h1>
         <br></br>
       </div>
 
-      <form id="groceries">
-        <br>
-        <div class="name-block">
+      <form id="palindromes">
+        <div class="form-group">
+          <label>Enter any thing, aowrd, a number optgroup a phrase</label>
+          <input id="txt" type="text">
 
-          <div class="control-group">
-            <label>Ener your name</label>
-              <input type="text" id="name" class="form-group">
-          </div>
-          <div class="help-inline"></div>
-          <br>
-            <button class="btn" id="start" type="button">start</button>
-          </div> <!-- for the  name-block -->
+        </div>
+
+        <button class="btn btn-primary" type="submit">is it a Palindromes?</button>
 
 
-
-          <div class="items">
-              <label>Choose the grocery items you need to add:</label>
-              <br>
-              <br>
-
-              <div class="radio">
-                <label>
-                  <input  id="choclate" name="choclate" type="radio" value="choclate">
-                  Chocolate
-                </label>
-              </div>
-
-              <div class="radio">
-                <label>
-                  <input id="eggs" name="eggs" type="radio" value="eggs">
-                  eggs
-                </label>
-              </div>
-
-              <div class="radio">
-                <label>
-                  <input id="milk" name="milk" type="radio" value="milk">
-                  milk
-                </label>
-              </div>
-
-              <div class="radio">
-                <label>
-                  <input  id="tommato" name="tommato" type="radio" value="tommato">
-                Tommato
-                </label>
-              </div>
-
-              <div class="radio">
-                <label>
-                  <input  id="potato" name="potato" type="radio" value="potato">
-                potato
-
-                </label>
-              </div>
-
-              <div class="radio">
-                <label>
-                  <input  id="rice" name="rice" type="radio" value="Rice">
-                  Rice
-                </label>
-              </div>
-
-              <div class="radio">
-                <label>
-                  <input  id="nuts" name="nuts" type="radio" value="nuts">
-                 nuts
-                </label>
-              </div>
-
-              <div class="radio">
-                <label>
-                  <input  id="beans" name="beans" type="radio" value="beans">
-                  beans
-                </label>
-              </div>
-
-              <div class="radio">
-                <label>
-                  <input  id="bread" name="bread" type="radio" value="bread">
-                bread
-                </label>
-              </div>
-
-              <div class="radio">
-                <label>
-                  <input  id="yogurt" name="yogurt" type="radio" value="yogurt">
-                  yogurt
-                </label>
-              </div>
-
-              <br>
-              <button class="btn" id="enter" type="submit">Submit your list</button>
-
-            </div>    <!-- for the items div -->
+      </form>
 
 
-
-
-
-
-        </form>
-
-          <br>
         <div id="result">
-
-          <p>Your list contains: </p>
-
-
-          <ul>
-
-          </ul>
-
-
-
-
 
         </div>
 
